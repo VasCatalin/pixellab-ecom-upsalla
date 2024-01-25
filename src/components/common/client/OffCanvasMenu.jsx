@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { CgMenu } from 'react-icons/cg';
 
+
 export const OffCanvasMenu = () => {
   const [open, setOpen] = useState(true);
 

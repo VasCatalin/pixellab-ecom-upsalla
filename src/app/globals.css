@@ -11,6 +11,10 @@
     --gray:theme(colors.neutral.100);
 }
 
+body {
+    @apply text-neutral-400;
+}
+
 .layout-grid {
     display: grid;
     min-height: 100dvh;
